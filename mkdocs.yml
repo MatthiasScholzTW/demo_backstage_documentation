@@ -1,0 +1,8 @@
+site_name: "TechnicalDocumentationTest"
+site_description: "Testing the backstage template capabilities for documentation"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core

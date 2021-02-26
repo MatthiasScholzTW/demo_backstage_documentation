@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "TechnicalDocumentationTest"
+  description: "Testing the backstage template capabilities for documentation"
+  annotations:
+    github.com/project-slug: MatthiasScholzTW/demo_backstage_documentation
+    backstage.io/techdocs-ref: url:https://github.com/MatthiasScholzTW/demo_backstage_documentation
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "Matthias Scholz"
